@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Fleur</title>
+ </head>
+ <body>
+   <header>
+     <h1>Fleur</h1>
+     <nav>
+       <ul>
+         <li><a href="#featured">Featured</a></li>
+         <li><a href="#arrangements">Arrangements</a></li>
+         <li><a href="#specials">Specials</a></li>
+         <li><a href="#about">About Us</a></li>
+         <li><a href="#contact">Contact</a></li>
+       </ul>
+     </nav>
+   </header>
+   <main>
+     <section id="featured">
+       <h2>Featured Flowers</h2>
+       <p>Check out our featured flower arrangements.</p>
+     </section>
+     <section id="arrangements">
+       <h2>Arrangements</h2>
+       <p>Browse our selection of flower arrangements.</p>
+     </section>
+     <section id="specials">
+       <h2>Specials</h2>
+       <p>Take a look at our current specials:<a
+​href="fleur.html">specials Page</a>.</p>
+     </section>
+     <section id="about">
+       <h2>About Us</h2>
+       <p>Learn more about FLEUR.</p>
+     </section>
+     <section id="contact">
+       <h2>Contact Us</h2>
+       <p>Get in touch with us.</p>
+     </section>
+   </main>
+   <footer>
+     <p>Copyright © 2022 Fleur</p>
+   </footer>
+ </body>
+</html>
