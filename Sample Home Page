@@ -1,46 +1,72 @@
 <!DOCTYPE html>
-<html>
- <head>
-   <title>Fleur</title>
- </head>
- <body>
-   <header>
-     <h1>Fleur</h1>
-     <nav>
-       <ul>
-         <li><a href="#featured">Featured</a></li>
-         <li><a href="#arrangements">Arrangements</a></li>
-         <li><a href="#specials">Specials</a></li>
-         <li><a href="#about">About Us</a></li>
-         <li><a href="#contact">Contact</a></li>
-       </ul>
-     </nav>
-   </header>
-   <main>
-     <section id="featured">
-       <h2>Featured Flowers</h2>
-       <p>Check out our featured flower arrangements.</p>
-     </section>
-     <section id="arrangements">
-       <h2>Arrangements</h2>
-       <p>Browse our selection of flower arrangements.</p>
-     </section>
-     <section id="specials">
-       <h2>Specials</h2>
-       <p>Take a look at our current specials:<a
-​href="fleur.html">specials Page</a>.</p>
-     </section>
-     <section id="about">
-       <h2>About Us</h2>
-       <p>Learn more about FLEUR.</p>
-     </section>
-     <section id="contact">
-       <h2>Contact Us</h2>
-       <p>Get in touch with us.</p>
-     </section>
-   </main>
-   <footer>
-     <p>Copyright © 2022 Fleur</p>
-   </footer>
- </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleur - Your Floral Haven</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Fleur</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Fleur</h2>
+            <p>Your Floral Haven</p>
+            <a href="#gallery" class="btn">Explore Our Flowers</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Fleur, we believe in the beauty of nature. Our mission is to bring the freshest and most beautiful flowers to our customers, creating stunning arrangements for every occasion.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="flower1.jpg" alt="Flower 1"></div>
+                <div class="gallery-item"><img src="flower2.jpg" alt="Flower 2"></div>
+                <div class="gallery-item"><img src="flower3.jpg" alt="Flower 3"></div>
+                <div class="gallery-item"><img src="flower4.jpg" alt="Flower 4"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Fleur. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
