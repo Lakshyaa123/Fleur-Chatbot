@@ -8,7 +8,7 @@ Next, we use Kommunicate to integrate the chatbot with the website we already bu
 
 
 Then, Kommunicate gives us a html integration code we can place in our website frontend. This successfully integrates the chatbot into the website.
-
+http://www.fleurshop.com.s3-website-us-east-1.amazonaws.com
 
 This is how it appears after the setup a chatbot icon is present at the bottom,when clicked the automated message is sent from the chatbot.
 
